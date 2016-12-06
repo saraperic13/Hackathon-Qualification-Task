@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDo or NotToDo</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="save_task">Save</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="check_box_done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="log_out">Log Out</string>
+</resources>
