@@ -7,6 +7,8 @@ public class Constants {
 
     public static final String UPDATE = "Update";
 
+    public static final String ADD = "Add";
+
     public static final String DELETE = "Delete";
 
     public static final String TASK_NAME = "Task Name";

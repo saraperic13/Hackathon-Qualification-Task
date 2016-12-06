@@ -111,7 +111,10 @@ public class HomeActivity extends AppCompatActivity {
 
     @Click
     void addTask() {
-        AddTaskActivity_.intent(this).startForResult(ADD_TASK_REQUEST_CODE);
+        Intent intent = new Intent(this, AddTaskActivity_.class);
+        intent.putExtra(Constants.DML_TYPE, Constants.ADD);
+
+        startActivityForResult(intent, ADD_TASK_REQUEST_CODE);
     }
 
 
